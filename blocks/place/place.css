@@ -1,0 +1,29 @@
+.place {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.place:nth-of-type(1) {
+    margin-top: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        margin-top: 73px;
+    }
+
+    .place:nth-of-type(1) {
+        margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        margin-top: 50px;
+    }
+
+    .place:nth-of-type(1) {
+        margin-top: 64px;
+    }
+}

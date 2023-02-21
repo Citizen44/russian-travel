@@ -1,0 +1,26 @@
+.footer__links-copyright {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    width: 1184px;
+    min-height: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__links-copyright {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__links-copyright {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links-copyright {
+        flex-direction: column;
+        width: 288px;
+    }
+}

@@ -1,0 +1,11 @@
+.place__top-row {
+    display: flex;
+    align-items: end;
+}
+
+@media screen and (max-width: 320px) {
+    .place__top-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}

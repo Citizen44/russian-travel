@@ -1,0 +1,7 @@
+@media screen and (max-width: 320px) {
+    .website {
+        align-self: center;
+        margin-top: 32px;
+        width: 288px;
+    }
+}

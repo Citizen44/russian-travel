@@ -1,0 +1,10 @@
+.place__bottom-row {
+    display: flex;
+}
+
+@media screen and (max-width: 320px) {
+    .place__bottom-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
