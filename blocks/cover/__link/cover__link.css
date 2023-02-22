@@ -3,7 +3,7 @@
 }
 
 .cover__link::before {
-    content: ""; 
+    content: "";
     position: absolute;
     background-color: #2A2C2F;
     opacity: 0.3;
