@@ -1,4 +1,4 @@
-.place__header {
+.place__title {
     margin: 0;
     margin-right: 40px;
     font-family: 'Inter', 'Arial', 'Helvetica';
@@ -11,14 +11,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .place__header {
+    .place__title {
         width: 440px;
         margin-right: 32px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .place__header {
+    .place__title {
         font-size: 42px;
         line-height: 46px;
         width: 330px;
@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .place__header {
+    .place__title {
         margin: 0 auto;
         font-size: 32px;
         line-height: 35px;
