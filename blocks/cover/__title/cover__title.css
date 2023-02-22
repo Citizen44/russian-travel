@@ -13,6 +13,7 @@
     right: 312px;
 }
 
+
 @media screen and (max-width: 1024px) {
     .cover__title {
         width: 560px;

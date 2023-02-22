@@ -1,11 +1,6 @@
 .cover__bg {
-    position: relative;
     display: block;
     margin: 0 auto;
-}
-
-.cover__bg:hover {
-    opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
