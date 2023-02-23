@@ -8,7 +8,7 @@
     margin-top: 92px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .place {
         margin-top: 73px;
     }
@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place {
         margin-top: 50px;
     }

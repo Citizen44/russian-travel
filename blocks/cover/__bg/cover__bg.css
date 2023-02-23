@@ -1,5 +1,5 @@
 .cover__bg {
-    position: relative;
+    position: absolute;
     display: block;
     margin: 0 auto;
 }
@@ -8,21 +8,21 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover__bg {
         width: 1024px;
         height: 640px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover__bg {
         width: 768px;
         height: 480px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__bg {
         width: 320px;
         height: 200px;
