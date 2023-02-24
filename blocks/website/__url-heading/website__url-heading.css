@@ -1,18 +1,18 @@
 .website__url-heading {
     margin: 0 auto;
-    margin-bottom: 12px;
-    font-family: 'Inter', 'Arial', 'Helvetica';
+    margin-bottom: 7px;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 170%;
     letter-spacing: 0.2em;
     color: #AAAAAA;
 }
 
 @media screen and (max-width: 1023px) {
     .website__url-heading {
-        font-size: 12px;
+        margin-bottom: 12px;
         line-height: 12px;
     }
 }

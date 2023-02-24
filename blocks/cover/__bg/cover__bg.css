@@ -4,10 +4,6 @@
     margin: 0 auto;
 }
 
-.cover:hover .cover__bg {
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 1279px) {
     .cover__bg {
         width: 1024px;
@@ -22,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 400px) {
     .cover__bg {
         width: 320px;
         height: 200px;

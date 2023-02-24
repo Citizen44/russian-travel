@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1023px) {
     .place {
-        margin-top: 73px;
+        margin-top: 70px;
     }
 
     .place:nth-of-type(1) {
@@ -18,12 +18,20 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 400px) {
     .place {
         margin-top: 50px;
     }
 
     .place:nth-of-type(1) {
         margin-top: 64px;
+    }
+
+    .place:nth-of-type(2) {
+        margin-top: 75px;
+    }
+
+    .place:last-of-type {
+        margin-top: 77px;
     }
 }

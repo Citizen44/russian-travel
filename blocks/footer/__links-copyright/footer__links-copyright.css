@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 400px) {
     .footer__links-copyright {
         flex-direction: column;
         width: 288px;
