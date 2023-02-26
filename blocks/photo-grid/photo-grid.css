@@ -27,7 +27,6 @@
     .photo-grid {
         padding-top: 64px;
         grid-template-columns: repeat(1, 352px);
-        grid-template-rows: repeat(auto-fit, 264px);
     }
 }
 
