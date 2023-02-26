@@ -7,16 +7,24 @@
     text-align: center;
     color: #FFFFFF;
     margin: 0;
-    width: 560px;
+    max-width: 560px;
     z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+        margin: 0 auto;
+        font-size: 40px;
+        line-height: 30px;
+        max-width: 400px;
+    }
 }
 
 @media screen and (max-width: 400px) {
     .cover__title {
-        margin: 0 auto;
         font-size: 32px;
         line-height: 35px;
-        width: 250px;
+        max-width: 250px;
     }
 }
 

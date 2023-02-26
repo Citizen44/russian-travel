@@ -16,9 +16,15 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .places {
+        width: calc(100% - 48px);
+        padding-bottom: 67px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .places {
         width: 320px;
-        padding-bottom: 67px;
     }
 }

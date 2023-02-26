@@ -13,14 +13,21 @@
 
 @media screen and (max-width: 1023px) {
     .cover__bg {
-        width: 768px;
+        width: 100%;
         height: 480px;
     }
 }
 
 @media screen and (max-width: 400px) {
     .cover__bg {
-        width: 320px;
+        width: calc(100% - 0px);
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cover__bg {
+        width: 100%;
         height: 200px;
     }
 }

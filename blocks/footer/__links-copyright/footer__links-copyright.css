@@ -18,9 +18,17 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 767px) {
     .footer__links-copyright {
         flex-direction: column;
+        align-items: center;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer__links-copyright {
+        align-items: start;
         width: 288px;
     }
 }
