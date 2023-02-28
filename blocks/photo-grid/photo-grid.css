@@ -35,5 +35,6 @@
         grid-template-columns: repeat(1, 288px);
         grid-template-rows: repeat(auto-fit, 216px);
         gap: 12px;
+        padding-bottom: 64px;
     }
 }

@@ -22,18 +22,15 @@
 
 @media screen and (max-width: 400px) {
     .place {
-        margin-top: 50px;
+        margin: 0;
+        margin-bottom: 50px;
     }
 
     .place:nth-of-type(1) {
-        margin-top: 64px;
-    }
-
-    .place:nth-of-type(2) {
-        margin-top: 75px;
+        margin-top: 0;
     }
 
     .place:last-of-type {
-        margin-top: 77px;
+        margin-bottom: 0;
     }
 }
